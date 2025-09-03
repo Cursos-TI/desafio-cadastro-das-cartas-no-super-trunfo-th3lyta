@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    // Carta 1 (dados fixos conforme exemplo)
     char estado1 = 'A';
     char codigo1[] = "A01";
     char nomeCidade1[] = "Curitiba";
@@ -10,7 +9,6 @@ int main() {
     float pib1 = 562.78f;
     int pontosTuristicos1 = 40;
 
-    // Carta 2 (dados fixos conforme exemplo)
     char estado2 = 'B';
     char codigo2[] = "B02";
     char nomeCidade2[] = "Manaus";
@@ -19,7 +17,6 @@ int main() {
     float pib2 = 345.86f;
     int pontosTuristicos2 = 50;
 
-    // Exibição das informações das cartas
     printf("Carta 1:\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
